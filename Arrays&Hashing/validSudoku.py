@@ -68,7 +68,6 @@ def isValidSudoku(board):
                         return False
                     box.add(board[k + i*3][l + j*3])
 
-
     return True
 
 
